@@ -23,7 +23,7 @@ spec:
         stage('Run maven') {
             steps {
                 container('heroku') {
-                    sh 'clients'
+                    sh 'heroku clients'
                 }
             }
         }
